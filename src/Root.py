@@ -8,6 +8,7 @@ from PyQt5.QtWidgets import QWidget, QVBoxLayout
 from src.MainWindow import MainWindow
 from .Message import MSG
 from Uis.MyDevice import TitleBar
+
 RES_PATH = './res/'
 
 #MainWindow
@@ -31,10 +32,10 @@ class Root():
             self.Margins, self.Margins, self.Margins, self.Margins)
         self.titleBar = TitleBar(self.rootwindow)
         self.titleBar.SetIcon(QPixmap(WINDOW_ICON))
-        self.mainwindow.gridLayout_11.addWidget(self.titleBar)
-        self.mainwindow.gridLayout_11.setSpacing(0)
-        self.mainwindow.gridLayout_11.addWidget(self.mainwindow.groupBox_2)
-        self.mainwindow.gridLayout_11.setContentsMargins(
+        self.mainwindow.gridLayout_16.addWidget(self.titleBar)
+        self.mainwindow.gridLayout_16.setSpacing(0)
+        self.mainwindow.gridLayout_16.addWidget(self.mainwindow.groupBox_2)
+        self.mainwindow.gridLayout_16.setContentsMargins(
              self.Margins, self.Margins, self.Margins, self.Margins)
         self.rootwindow.showNormal()
         styleFile = './Uis/style.qss'

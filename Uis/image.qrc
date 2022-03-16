@@ -1,5 +1,6 @@
 <RCC>
-  <qresource prefix="button">
-    <file>mmexport1583910919296.jpg</file>
+  <qresource prefix="button"/>
+  <qresource prefix="logo">
+    <file>logo.png</file>
   </qresource>
 </RCC>

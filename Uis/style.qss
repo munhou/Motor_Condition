@@ -3,7 +3,7 @@ QStackedWidget, QLabel, QPushButton, QRadioButton, QCheckBox,
 QGroupBox, QStatusBar, QToolButton, QComboBox, QDialog {
     background-color: #222222;
     color: #BBBBBB;
-    font-family: "Segoe UI";
+    /* font-family: "Segoe UI"; */
 }
 
 /* === QWidget === */
@@ -95,7 +95,7 @@ QGroupBox {
 }
 
 QGroupBox::title {
-    color: yellow;
+    color: rgba(211, 87, 5, 0.747);
     subcontrol-origin: margin;
     subcontrol-position: top left;
     margin-left: 5px;
